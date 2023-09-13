@@ -1,0 +1,76 @@
+  body {
+    background-image: linear-gradient 
+    (135deg, #c800ff 100%, #950287 100%);
+  }
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .book {
+    position: relative;
+    border-radius: 10px;
+    width: 400px;
+    height: 550px;
+    font-size: 20px;
+    color: black;
+    outline-color: solid;
+    margin-top: 30px;
+    background-image: url(https://i.ibb.co/JnPZ80t/istockphoto-1013573696-1024x1024.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    -webkit-box-shadow: 12px px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    line-height: 3;
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   }
+  .cover {
+    top: 0;
+    position: absolute;
+    background-color: blueviolet;
+    background-color: pink;
+    background-image: url(https://i.ibb.co/K2GNRWP/Blue-Simple-Happy-Birthday-A4-Document.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-85deg);
+    -ms-transform: rotatey(-85deg);
+    transform: rotatey(-85deg);
+  }
